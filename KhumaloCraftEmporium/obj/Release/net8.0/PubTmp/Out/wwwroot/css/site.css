@@ -1,0 +1,458 @@
+/* Set base font size */
+html {
+    font-size: 14px;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    /* Increase font size for larger screens */
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Focus styles for various elements */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Positioning and sizing for the root HTML element */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Navigation item styles */
+.nav-item {
+    font-size: 25px;
+    color: rgb(39, 40, 74);
+    text-decoration: none;
+}
+
+/* Navigation bar styles */
+.navbar-nav {
+    text-align: center;
+}
+
+    .navbar-nav .nav-item {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 100px;
+    }
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(142, 209, 187);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+    header .logo {
+        font-weight: bolder;
+        font-size: 25px;
+        color: rgb(39, 40, 74);
+        text-decoration: none;
+        margin-right: 50px;
+    }
+
+/* Body styles */
+body {
+    background: url(../images/artbg2.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(39, 40, 74);
+    font-size: large;
+}
+
+/* Image container styles */
+.img-container {
+    text-align: center;
+}
+
+/* Subheading styles */
+.Subheading {
+    text-align: center;
+    border: solid;
+}
+
+/* Picture grid item styles */
+.picture-grid-item {
+    background-color: rgba(142, 209, 187, 0.90);
+    border: 1px solid rgb(39, 40, 74);
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+    .picture-grid-item img {
+        padding: 15px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+/* Main container styles */
+.container {
+    background: rgba(142, 209, 187, 0.90);
+    width: 920px; /* Fixed width for larger screens */
+    margin: 80px auto;
+    max-width: 97%; /* Ensure container doesn't exceed viewport width */
+    border-radius: 4px;
+    padding: 55px 30px;
+    text-align: center;
+}
+
+/* Form container styles */
+.form-container {
+    background: rgba(142, 209, 187, 0.90);
+    width: 920px; /* Fixed width for larger screens */
+    margin: 80px auto;
+    max-width: 97%; /* Ensure container doesn't exceed viewport width */
+    border-radius: 4px;
+    padding: 55px 30px;
+}
+
+/* Form layout styles */
+form .half {
+    display: flex;
+    justify-content: space-between;
+}
+
+    form .half .item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+        width: 48%;
+        padding: 2%;
+    }
+
+form label {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+}
+
+form .half .item input {
+    border-radius: 4px;
+    border: 1px solid rgb(39, 40, 74);
+    outline: 0;
+    padding: 16px;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 17px;
+}
+
+form .full {
+    margin-bottom: 24px;
+}
+
+    form .full textarea {
+        background: transparent;
+        border-radius: 4px;
+        border: 1px solid rgb(39, 40, 74);
+        outline: 0;
+        padding: 12px 16px;
+        width: 100%;
+        height: 200px;
+        font-size: 17px;
+    }
+
+/* Form action styles */
+form .action {
+    margin-bottom: 32px;
+}
+
+    form .action input {
+        background: transparent;
+        border-radius: 4px;
+        border: 1px solid rgb(39, 40, 74);
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 600;
+        height: 44px;
+        letter-spacing: 3px;
+        outline: 0;
+        padding: 0 20px 0 22px;
+        margin-right: 10px;
+    }
+
+        form .action input[type="submit"] {
+            background: turquoise;
+            color: rgb(39, 40, 74);
+        }
+
+/* Main content paragraph styles */
+.main-content p {
+    text-align: left;
+}
+
+/* General paragraph styles */
+p {
+    text-align: center;
+}
+
+/* Unordered list styles */
+ul {
+    text-align: left;
+}
+
+/* Horizontal rule styles */
+hr {
+    color: black;
+}
+
+/* Header 1 styles */
+h1 {
+    text-align: left;
+}
+
+/* Header 2 styles */
+h2 {
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+}
+
+/* Social media icon styles */
+.icons a {
+    border: 1px solid rgb(39, 40, 74);
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px;
+}
+
+/* Lightbox styles */
+body.lb-disable-scrolling {
+    overflow: hidden;
+}
+
+.lightboxOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    display: none;
+}
+
+.lightbox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    text-align: center;
+    line-height: 0;
+    font-weight: normal;
+    outline: none;
+}
+
+    .lightbox .lb-image {
+        display: block;
+        height: auto;
+        max-width: inherit;
+        max-height: none;
+        border-radius: 3px;
+        border: 4px solid rgb(39, 40, 74);
+    }
+
+    .lightbox a img {
+        border: none;
+    }
+
+.lb-outerContainer {
+    position: relative;
+    *zoom: 1;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: rgb(39, 40, 74);
+}
+
+    .lb-outerContainer:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.lb-loader {
+    position: absolute;
+    top: 43%;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+.lb-cancel {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+
+.lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.lb-container > .nav {
+    left: 0;
+}
+
+.lb-nav a {
+    outline: none;
+    background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev,
+.lb-next {
+    height: 100%;
+    cursor: pointer;
+    display: block;
+}
+
+.lb-nav a.lb-prev {
+    width: 34%;
+    left: 0;
+    float: left;
+    background: url(../images/prev.png) left 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+    .lb-nav a.lb-prev:hover {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+
+.lb-nav a.lb-next {
+    width: 64%;
+    right: 0;
+    float: right;
+    background: url(../images/next.png) right 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+    .lb-nav a.lb-next:hover {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+
+.lb-dataContainer {
+    margin: 0 auto;
+    padding-top: 5px;
+    *zoom: 1;
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+    .lb-dataContainer:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.lb-data {
+    padding: 0 4px;
+    color: #ccc;
+}
+
+    .lb-data .lb-details {
+        width: 85%;
+        float: left;
+        text-align: left;
+        line-height: 1.1em;
+    }
+
+    .lb-data .lb-caption {
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 1em;
+    }
+
+        .lb-data .lb-caption a {
+            color: #4ae;
+        }
+
+    .lb-data .lb-number {
+        display: block;
+        clear: left;
+        padding-bottom: 1em;
+        font-size: 12px;
+        color: #999999;
+    }
+
+    .lb-data .lb-close {
+        display: block;
+        float: right;
+        width: 30px;
+        height: 30px;
+        background: url(../images/close.png) top right no-repeat;
+        text-align: right;
+        outline: none;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+        opacity: 0.7;
+        transition: opacity 0.2s;
+    }
+
+        .lb-data .lb-close:hover {
+            cursor: pointer;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+            opacity: 1;
+        }
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+/* Message received container styles */
+.message-received {
+    text-align: center;
+}

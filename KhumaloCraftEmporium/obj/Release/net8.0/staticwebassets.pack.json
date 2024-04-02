@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\KhumaloCraftEmporium.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KhumaloCraftEmporium.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\African Beaded Cuff Bangle.jpg",
+      "PackagePath": "staticwebassets\\images\\African Beaded Cuff Bangle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\African Ceramic Pot.jpg",
+      "PackagePath": "staticwebassets\\images\\African Ceramic Pot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\African Mud Clay Pot.jpg",
+      "PackagePath": "staticwebassets\\images\\African Mud Clay Pot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\African Zulu Collar Necklace for Women.jpg",
+      "PackagePath": "staticwebassets\\images\\African Zulu Collar Necklace for Women.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\Beaded Butterfly Flower Pot.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beaded Butterfly Flower Pot.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\Beaded Cat Artwork.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beaded Cat Artwork.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\Beaded Pop Art Artwork.jpg",
+      "PackagePath": "staticwebassets\\images\\Beaded Pop Art Artwork.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\KhumaloCraft Logo5.png",
+      "PackagePath": "staticwebassets\\images\\KhumaloCraft Logo5.png"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\Rope-bracelets.jpg",
+      "PackagePath": "staticwebassets\\images\\Rope-bracelets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\african jar medium unpainted.jpg",
+      "PackagePath": "staticwebassets\\images\\african jar medium unpainted.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\artbg1.jpg",
+      "PackagePath": "staticwebassets\\images\\artbg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\artbg2.jpg",
+      "PackagePath": "staticwebassets\\images\\artbg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\js\\contact-us.js",
+      "PackagePath": "staticwebassets\\js\\contact-us.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.KhumaloCraftEmporium.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.KhumaloCraftEmporium.props",
+      "PackagePath": "build\\KhumaloCraftEmporium.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KhumaloCraftEmporium.props",
+      "PackagePath": "buildMultiTargeting\\KhumaloCraftEmporium.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.KhumaloCraftEmporium.props",
+      "PackagePath": "buildTransitive\\KhumaloCraftEmporium.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

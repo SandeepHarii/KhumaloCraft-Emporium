@@ -1,0 +1,7 @@
+C:\Users\Sande\Programming\C#\KhumaloCraftEmporium\KhumaloCraftEmporium\obj\Release\net8.0\PubTmp\Out\KhumaloCraftEmporium.exe
+C:\Users\Sande\Programming\C#\KhumaloCraftEmporium\KhumaloCraftEmporium\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Sande\Programming\C#\KhumaloCraftEmporium\KhumaloCraftEmporium\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Sande\Programming\C#\KhumaloCraftEmporium\KhumaloCraftEmporium\obj\Release\net8.0\PubTmp\Out\KhumaloCraftEmporium.dll
+C:\Users\Sande\Programming\C#\KhumaloCraftEmporium\KhumaloCraftEmporium\obj\Release\net8.0\PubTmp\Out\KhumaloCraftEmporium.deps.json
+C:\Users\Sande\Programming\C#\KhumaloCraftEmporium\KhumaloCraftEmporium\obj\Release\net8.0\PubTmp\Out\KhumaloCraftEmporium.runtimeconfig.json
+C:\Users\Sande\Programming\C#\KhumaloCraftEmporium\KhumaloCraftEmporium\obj\Release\net8.0\PubTmp\Out\KhumaloCraftEmporium.pdb

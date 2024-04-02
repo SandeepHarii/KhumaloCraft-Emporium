@@ -1,0 +1,133 @@
+﻿@page
+@model ContactUsModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+
+    <h1>@ViewData["Title"]</h1>
+
+    <div class="container">
+
+        <h1> Contact Us </h1>
+        <hr size="5px">
+        <br />
+
+        <p>We appreciate your curiosity about KhumaloCraft. We appreciate your comments, questions, and recommendations. Please use the following contact details to get in touch with us:</p>
+
+        <body>
+
+            <h2>Address:</h2>
+
+            <p>3rd Avenue</p>
+
+            <h2>Phone Number:</h2>
+
+            <p> 011 XXX XXXX</p>
+
+            <h2>Email:</h2>
+            <p>KhumaloCraftEmporium@gmail.com</p>
+
+            <h2>Business Hours:</h2>
+
+            <p><b>Monday to Friday: </b>08:00 - 17:00</p>
+            <p><b>Saturday and Sunday: </b>Closed</p>
+
+            <h2>Social Media:</h2>
+
+            <p><b>Facebook: </b>KhumaloCraftEmporium_FB</p>
+            <p><b>Instagram: </b>KhumaloCraftEmporium_Insta</p>
+            <p><b>Twitter: </b>KhumaloCraftEmporium_Twitter</p>
+
+        </body>
+
+    </div>
+
+    <div class="form-container">
+
+        <h2>Feedback and Inquiries:</h2>
+        <br />
+
+        <p>If you have any feedback, questions, or inquiries, please fill out the contact form below, and a member of our team will get back to you as soon as possible.</p>
+
+        <form id="CommentForm" action="/message-received" method="get">
+            <div class="half">
+                <div class="item">
+                    <label for="name">FULL NAME</label>
+                    <input type="text" id="name" name="name" required oninvalid="this.setCustomValidity('Please Enter Your Full Name Here')" oninput="this.setCustomValidity('')" />
+                </div>
+
+
+
+                <div class="item">
+                    <label for="mobile">CONTACT NUMBER</label>
+                    <input type="tel" id="mobile" name="mobile" placeholder="123 456 6978" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required oninvalid="this.setCustomValidity('Please Enter Phone Number in the following format 123 456 6978 with spaces as displayed')" oninput="this.setCustomValidity('')" />
+                    <small>Format: 123 456 6978</small>
+                </div>
+
+                <div class="item">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input type="email" id="email" name="email" pattern="[A-Za-z0-9._%+-]+[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" required oninvalid="this.setCustomValidity('Please Enter correct Emaill Address incuding the at sign and .')" oninput="this.setCustomValidity('')" />
+                </div>
+            </div>
+
+            <div class="full">
+
+                <label for="enquiry">MESSAGE</label>
+                <textarea id="enquiry" name="enquiry" required oninvalid="this.setCustomValidity('Please Enter your MESSAGE to us')" oninput="this.setCustomValidity('')"></textarea>
+
+            </div>
+
+            <div class="action">
+                <input type="submit" value="SEND MESSAGE">
+                <input type="reset" value="RESET">
+            </div>
+
+        </form>
+
+        <p>
+            We appreciate you selecting KhumaloCraft. We are eager to speak with you and help you with your handcrafted requirements.
+        </p>
+        <br />
+
+        <section id="footer">
+
+
+
+            <hr>
+
+            <div class="icons">
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <P>
+                    <a href="Tel: +27 83 123 4567 " class="fa fa-phone"></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                    <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                    <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+                </P>
+
+
+                <P>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari </P>
+
+
+            </div>
+
+            <hr>
+
+        </section>
+
+        <script src="~/js/contact-us.js" asp-append-version="true" asp-src-include="~/js/contact-us.js"></script>
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|c:\\users\\sande\\programming\\c#\\khumalocraftemporium\\khumalocraftemporium\\pages\\contact-us.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|solutionrelative:khumalocraftemporium\\pages\\contact-us.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|c:\\users\\sande\\programming\\c#\\khumalocraftemporium\\khumalocraftemporium\\pages\\my-work.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|solutionrelative:khumalocraftemporium\\pages\\my-work.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|c:\\users\\sande\\programming\\c#\\khumalocraftemporium\\khumalocraftemporium\\pages\\about-us.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|solutionrelative:khumalocraftemporium\\pages\\about-us.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|c:\\users\\sande\\programming\\c#\\khumalocraftemporium\\khumalocraftemporium\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EA67708-3CB3-47BC-9F1C-B3D203AB1D08}|KhumaloCraftEmporium\\KhumaloCraftEmporium.csproj|solutionrelative:khumalocraftemporium\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "KhumaloCraftEmporium\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\Index.cshtml",
+              "RelativeToolTip": "KhumaloCraftEmporium\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAYwFIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T19:13:31.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "about-us.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\about-us.cshtml",
+              "RelativeDocumentMoniker": "KhumaloCraftEmporium\\Pages\\about-us.cshtml",
+              "ToolTip": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\about-us.cshtml",
+              "RelativeToolTip": "KhumaloCraftEmporium\\Pages\\about-us.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAYwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T19:13:54.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "my-work.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\my-work.cshtml",
+              "RelativeDocumentMoniker": "KhumaloCraftEmporium\\Pages\\my-work.cshtml",
+              "ToolTip": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\my-work.cshtml",
+              "RelativeToolTip": "KhumaloCraftEmporium\\Pages\\my-work.cshtml",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAcwK0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T19:17:14.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "contact-us.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\contact-us.cshtml",
+              "RelativeDocumentMoniker": "KhumaloCraftEmporium\\Pages\\contact-us.cshtml",
+              "ToolTip": "C:\\Users\\Sande\\Programming\\C#\\KhumaloCraftEmporium\\KhumaloCraftEmporium\\Pages\\contact-us.cshtml",
+              "RelativeToolTip": "KhumaloCraftEmporium\\Pages\\contact-us.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAcwIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T19:19:24.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

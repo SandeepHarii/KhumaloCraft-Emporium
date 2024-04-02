@@ -1,0 +1,63 @@
+﻿@page
+@model message_receivedModel
+@{
+    ViewData["Title"] = "Thank You";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <script src="~/js/contact-us.js" asp-append-version="true" asp-src-include="~/js/contact-us.js"></script>
+
+</head>
+<body>
+
+    <h1>@ViewData["Title"]</h1>
+
+    <div class="container">
+
+        <section class="content">
+
+            <br>
+            <h1> Thank You </h1>
+            <br>
+
+            <hr size="5px">
+            <br>
+
+            <div id="message-received"></div>
+
+            <br>
+
+        </section>
+
+        <section id="footer">
+
+            <hr>
+
+            <div class="icons">
+
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <p>
+                    <a href="Tel: +27 83 123 4567 " class="fa fa-phone"></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                    <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                    <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+                </p>
+
+                <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari </p>
+
+            </div>
+
+            <hr>
+
+        </section>
+
+    </div>
+
+</body>
+</html>
