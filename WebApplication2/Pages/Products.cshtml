@@ -1,0 +1,115 @@
+﻿@page
+@model ProductsModel
+@{
+    ViewData["Title"] = "Products";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/admin-site.css" />
+</head>
+<body>
+
+   
+        <h1>My Work</h1>
+        <hr size="5px">
+        <br />
+        <p>
+            We at KhumaloCraft are extremely proud to have assembled a wide range of wonderful handcrafted goods from global craftsmen. Every artwork conveys a tale, showcases a distinct cultural background, and exhibits the artist's talent and enthusiasm. View our collection below to see the elegance and skill with which our artists have created their pieces.
+        </p>
+        <br />
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Product Description</th>
+                    <th>Product Category</th>
+                    <th>Product Availability</th>
+                    <th>Product Quantity</th>
+                    <th>Product Price</th>
+                    <th>Sub-Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model.ListProducts)
+                {
+
+                    var base64Image = Convert.ToBase64String(product.Image);
+                    var imageSrc = $"data:image/jpeg;base64,{base64Image}";
+
+                    <tr>
+                    <td style=" background-color: #ec582a;">@product.ProductID</td>
+                        <td>  <img src="@imageSrc" alt="Product Image" width="150px" height="150px" /> </td>
+                        <td>@product.ProductName</td>
+                        <td>@product.ProductDescription</td>
+                        <td>@product.ProductCategory</td>
+                        <td id="availability_@product.ProductID" data-initial-quantity="@product.ProductAvailability">@product.ProductAvailability</td>
+                        <td><input type="number" class="quantity-input" style="width: 60px;" value="1" id="quantity_@product.ProductID" onchange="updateSubtotalAndAvailability(@product.ProductID, this.value)"></td>
+                        <td id="price_@product.ProductID">R @product.ProductPrice</td>
+                        <td id="subtotal_@product.ProductID">R @product.ProductPrice</td>
+                        <td>
+                            <a href="#" onclick="addToCart(@product.ProductID)" class="btn btn-primary btn-sm">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <section id="footer">
+            <hr>
+            <div class="icons">
+                <p>
+                    <a href="Tel:+27831234567" class="fa fa-phone"></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                    <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                    <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+                </p>
+                <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+            </div>
+            <hr>
+        </section>
+
+        <script>
+            function addToCart(productId) {
+                var quantity = document.getElementById('quantity_' + productId).value;
+                window.location.href = '/Products?handler=AddToCart&productId=' + productId + '&quantity=' + quantity;
+                return false;
+            }
+
+            function updateSubtotalAndAvailability(productId, quantity) {
+                var productPrice = document.getElementById('price_' + productId).innerText;
+                var subtotal = parseFloat(productPrice.replace('R', '')) * parseInt(quantity); // Calculate subtotal
+                document.getElementById('subtotal_' + productId).innerText = 'R ' + subtotal.toFixed(2); // Update subtotal cell
+
+                // Call updateAvailability function
+                updateAvailability(productId, quantity);
+            }
+
+            function updateAvailability(productId, quantity) {
+                var availability = document.getElementById('availability_' + productId);
+                var currentAvailability = parseInt(availability.getAttribute('data-initial-quantity'));
+                var updatedAvailability = currentAvailability - parseInt(quantity);
+
+                // Check if the updated availability is not negative
+                if (!isNaN(updatedAvailability) && updatedAvailability >= 0) {
+                    availability.innerText = updatedAvailability;
+                } else {
+                    // If updated availability is negative, set it to 0
+                    availability.innerText = 0;
+                }
+            }
+        </script>
+
+</body>
+</html>

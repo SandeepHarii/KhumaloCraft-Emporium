@@ -1,0 +1,88 @@
+﻿@page
+@using KhumaloCraft2.Pages
+@model EditModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <h1>Edit Product</h1>
+    <hr>
+
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">Product Name</label>
+            <input type="text" class="form-control" name="productName" value="@Model.EditProduct.ProductName" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Product Description</label>
+            <input type="text" class="form-control" name="productDescription" value="@Model.EditProduct.ProductDescription" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Product Price</label>
+            <input type="number" class="form-control" name="productPrice" value="@Model.EditProduct.ProductPrice" step="0.01" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Product Category</label>
+            <input type="text" class="form-control" name="productCategory" value="@Model.EditProduct.ProductCategory" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Product Availability</label>
+            <input type="number" class="form-control" name="productAvailability" value="@Model.EditProduct.ProductAvailability" />
+        </div>
+
+        <div class="btn-container">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <a class="btn btn-outline-primary" href="/admin-my-work" role="button">Cancel</a>
+        </div>
+        <p></p>
+    </form>
+
+    @if (Model.EditAttempted)
+    {
+        @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+        {
+            <div class="alert alert-success" role="alert">
+                <strong>@Model.SuccessMessage</strong>
+                <button type='button' class="btn-close" data-bs-dismiss='alert' aria-label="close"></button>
+            </div>
+            <a class="btn btn-outline-primary" href="/admin-my-work" role="button">Back</a>
+        }
+        else if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="alert alert-warning" role="alert">
+                <strong>@Model.ErrorMessage</strong>
+                <button type='button' class="btn-close" data-bs-dismiss='alert' aria-label="close"></button>
+            </div>
+        }
+    }
+
+
+
+
+
+    <section id="footer">
+        <hr>
+        <div class="icons">
+            <p>
+                <a href="Tel:+27831234567" class="fa fa-phone"></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+            </p>
+            <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+        </div>
+        <hr>
+    </section>
+</body>
+</html>

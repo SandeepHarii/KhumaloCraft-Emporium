@@ -1,0 +1,522 @@
+/* Set base font size and custom font */
+html {
+    font-size: 16px;
+    font-family: 'Homemade Apple', cursive; /* Custom font */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* Cart Items */
+.quantity-input {
+    width: 60px;
+    padding: 5px;
+}
+
+.small-container.cart-page th {
+    text-align: left;
+    padding: 5px;
+    color: #f3c8a8; /* Light brown */
+    background: #ec582a; /* Orange */
+    font-weight: normal;
+}
+
+.small-container.cart-page td {
+    padding: 10px 5px;
+}
+
+    .small-container.cart-page td input {
+        width: 100px; /* Adjust as needed */
+        height: 30px;
+        padding: 5px;
+    }
+
+    .small-container.cart-page td a {
+        color: #f3c8a8; /* Light brown */
+        font-size: 14px;
+    }
+
+    .small-container.cart-page td img {
+        width: 100px; /* Adjust as needed */
+        height: 80px; /* Adjust as needed */
+        margin-right: 10px;
+    }
+
+.small-container.cart-page p {
+    text-align: left;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .total-price table {
+        border-top: 3px solid #ec582a; /* Orange */
+        width: 100%;
+        max-width: 349px;
+    }
+
+.small-container.cart-page td:last-child {
+    text-align: right;
+}
+
+.small-container.cart-page th:last-child {
+    text-align: left;
+}
+
+.cart-page {
+    margin: 80px auto;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add To Cart Button */
+.btn.btn-primary.btn-sm {
+    background-color: #c80604; /* Red */
+    border-color: #c80604; /* Red */
+    color: #ffffff; /* White */
+}
+
+    .btn.btn-primary.btn-sm:hover {
+        background-color: #d5310b; /* Darker red color on hover */
+        border-color: #d5310b; /* Darker red color on hover */
+    }
+
+/* Focus styles for various elements */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.1), 0 0 0 0.25rem #01a698; /* Refined focus styles */
+}
+
+.checkbox.mb-3 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+    .checkbox.mb-3 label {
+        margin-left: 10px;
+    }
+
+/* Navigation item styles */
+.nav-item {
+    font-size: 20px;
+    color: #01a698; /* Dark cyan */
+    text-decoration: none;
+}
+
+
+
+/* Navigation bar styles */
+.navbar-nav {
+    text-align: center;
+}
+
+    .navbar-nav .nav-item {
+        display: inline-block;
+        margin-right: 20px; /* Slightly increased margin for better spacing */
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 30px;
+        color: #01a698; /* Dark cyan */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #f3c8a8; /* Light brown */
+        }
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EC582A;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 4vh 7%; /* Adjusted padding using viewport height (vh) */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+    header .logo {
+        font-family: 'Homemade Apple', cursive; /* Custom font */
+        font-size: 30px;
+        color: #ffffff; /* White */
+        text-decoration: none;
+        margin-right: 30px; /* Adjusted margin for better spacing */
+    }
+
+/* Body styles */
+body {
+    padding-top: 150px;
+    padding-bottom: 35px;
+    background: url(../images/bg-2.png) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000; /* Black */
+    font-size: 1rem; /* Reset font size for consistency */
+    font-family: 'Homemade Apple', cursive; /* Custom font */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: center;
+    border: 1px solid #c80604; /* Red */
+}
+
+td {
+    font-size: 16px;
+    min-width: 100px;
+}
+
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #f3c8a8; /* Light brown */
+    font-weight: bold;
+    text-align: center; /* Center align text in headers */
+    background: #ec582a; /* Orange */
+}
+
+.product-id-cell {
+
+    background-color: #ec582a;
+    font-weight: bold;
+    color: #f3c8a8;
+
+}
+
+
+tr:nth-child(even) {
+    
+    background: #f78e79; /* Cherry */
+
+}
+
+/* Button container styles */
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .btn-container > div {
+        margin-bottom: 20px;
+    }
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end; /* Align buttons to the right side */
+    gap: 10px;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.process-order-btn,
+.clear-order-btn {
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+}
+
+.process-order-btn {
+    background-color: #c80604; /* Red */
+    border-color: #c80604; /* Red */
+    color: #ffffff; /* White */
+}
+
+    .process-order-btn:hover {
+        background-color: #d5310b; /* Darker red color on hover */
+        border-color: #d5310b; /* Darker red color on hover */
+    }
+
+.clear-order-btn {
+    background-color: #d5310b; 
+    border-color: #f3c8a8; /* Light brown */
+    color: #ffffff; /* White */
+}
+
+    .clear-order-btn:hover {
+        background-color: #ec582a; /* Darker orange color on hover */
+        border-color: #ec582a; /* Darker orange color on hover */
+    }
+
+/* Login Form styles */
+.login-container {
+    margin: auto;
+    width: 100%; /* Adjusted width for better responsiveness */
+    max-width: 500px; /* Limiting width for better readability */
+}
+
+    .login-container form {
+        width: 100%;
+        padding: 20px;
+        background: white;
+        border-radius: 4px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .login-container h1 {
+        text-align: center;
+        margin-bottom: 24px;
+        color: #000; /* Black */
+    }
+
+    .login-container form .form-control {
+        width: 100%;
+        height: 40px;
+        background: white;
+        border-radius: 4px;
+        border: 1px solid #004d40; /* Dark green */
+        margin: 10px 0 18px 0;
+        padding-right: 38px;
+        padding: 0 10px;
+    }
+
+    .login-container form .btn:hover {
+        opacity: .7;
+    }
+
+    .login-container form label {
+        text-align: left;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+/* Image container styles */
+.img-container {
+    text-align: center;
+}
+
+/* Subheading styles */
+.Subheading {
+    text-align: center;
+    border: solid;
+}
+
+/* Main container styles */
+.container {
+    background: #F3C8A8; /* Lighter shade of brown */
+    width: 90%; /* Adjusted width for better responsiveness */
+    max-width: 980px; /* Limiting width for better readability */
+    margin: 8px auto;
+    border-radius: 8px;
+    padding: 40px; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+/* Form container styles */
+.form-container {
+    background: white;
+    width: 90%; /* Adjusted width for better responsiveness */
+    max-width: 920px; /* Limiting width for better readability */
+    margin: 80px auto;
+    border-radius: 8px;
+    padding: 40px; /* Increased padding for better spacing */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.input-group-append {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Form layout styles */
+form .half {
+    display: flex;
+    justify-content: space-between;
+}
+
+    form .half .item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+        width: 48%;
+        padding: 2%;
+    }
+
+form label {
+    display: block;
+    font-size: 16px; /* Adjusted font size for better readability */
+    letter-spacing: 1px; /* Reduced letter spacing for better readability */
+    margin-bottom: 16px;
+}
+
+form .half .item input {
+    border-radius: 4px;
+    border: 1px solid #c80604; /* Red */
+    outline: 0;
+    padding: 12px; /* Adjusted padding for better spacing */
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 16px; /* Adjusted font size for better readability */
+}
+
+form .full textarea {
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #c80604; /* Red */
+    outline: 0;
+    padding: 12px 16px;
+    width: 100%;
+    height: 200px;
+    font-size: 16px; /* Adjusted font size for better readability */
+}
+
+/* Form action styles */
+form .action {
+    margin-bottom: 32px;
+}
+
+    form .action input {
+        background: transparent;
+        border-radius: 4px;
+        border: 1px solid #c80604; /* Red */
+        cursor: pointer;
+        font-size: 16px; /* Adjusted font size for better readability */
+        font-weight: 600;
+        height: 44px;
+        letter-spacing: 1px; /* Reduced letter spacing for better readability */
+        outline: 0;
+        padding: 0 20px;
+        margin-right: 10px;
+    }
+
+        form .action input[type="submit"] {
+            background: #c80604; /* Red */
+            color: #ffffff; /* White */
+        }
+
+/* Main content paragraph styles */
+.main-content p {
+    text-align: left;
+}
+
+/* General paragraph styles */
+p {
+    text-align: center;
+    color: #000; /* Black */
+    font-family: 'Nunito', sans-serif; /* Fallback font with similar style */
+}
+
+/* Unordered list styles */
+ul {
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Horizontal rule styles */
+hr {
+    color: black;
+}
+
+/* Header 1 styles */
+h1 {
+    text-align: left;
+    color: #000; /* Black */
+    font-family: 'Homemade Apple', cursive; /* Custom font */
+}
+
+/* Header 2 styles */
+h2 {
+    text-align: center;
+    color: #000; /* Black */
+    font-family: 'Homemade Apple', cursive; /* Custom font */
+}
+
+h3 {
+    text-align: left;
+    color: #000; /* Black */
+    font-family: 'Homemade Apple', cursive; /* Custom font */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    color: #000; /* Black */
+}
+
+/* Social media icon styles */
+.icons a {
+    border: 1px solid #c80604; /* Red */
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px;
+}
+
+/* Button styles */
+.normal-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c80604; /* Red */
+    color: #ffffff; /* White */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Homemade Apple', cursive; /* Custom font */
+}
+
+    .normal-btn:hover {
+        background-color: #d5310b; /* Darker shade of red */
+        color: #fff; /* White */
+    }
+
+/* Message received container styles */
+.message-received {
+    text-align: center;
+}
+
+/* Staff and Customer Login Styles */
+.navbar-nav .nav-link.text-dark {
+    color: #c80604; /* Red */
+    transition: color 0.3s ease;
+}
+
+    .navbar-nav .nav-link.text-dark:hover {
+        color: #ec582a; /* Lighter orange color on hover */
+    }
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 767px) {
+    /* Adjust styles for smaller screens */
+    .container,
+    .form-container {
+        width: 90%;
+        padding: 20px; /* Increased padding for better spacing */
+    }
+
+    form .half .item {
+        width: 100%;
+    }
+}

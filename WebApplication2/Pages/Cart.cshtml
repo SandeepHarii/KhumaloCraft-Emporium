@@ -1,0 +1,114 @@
+﻿@page
+@model KhumaloCraft2.Pages.CartModel
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+
+
+    <h1>Cart</h1>
+    <h3>For User: <b>@Model.UserName</b></h3>
+    <hr size="5px">
+
+    <div class="small-container cart-page">
+        @if (Model.CartItems.Count == 0)
+        {
+            <p>No items in the Cart</p>
+        }
+        else
+        {
+            <form method="post">
+
+                <table>
+                    <tr>
+                        <th>Cart ID</th>
+                        <th>Product ID</th>
+                        <th>Product Image</th>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Sub-Total</th>
+                        <th>Date Ordered</th>
+                        <th>Action</th>
+                    </tr>
+
+                    @foreach (var item in Model.CartItems)
+                    {
+                        var base64Image = Convert.ToBase64String(item.Image);
+                        var imageSrc = $"data:image/jpeg;base64,{base64Image}";
+
+                        <tr>
+                            <td>@item.CartID</td>
+                            <td>@item.ProductID</td>
+                            <td>  <img src="@imageSrc" alt="Product Image" width="150px" height="150px" /> </td>
+                            <td>@item.ProductName</td>
+                            <td>@item.ProductQuantity</td>
+                            <td>R @item.ProductPrice</td>
+                            <td>R @(item.ProductPrice * item.ProductQuantity)</td> <!-- Calculate subtotal -->
+                            <td>@item.DateAdded.ToString("dd MMMM yyyy HH:mm:ss")</td>
+
+                            <td>
+                                <div style="text-align: center;">
+                                    <a class="btn btn-primary btn-sm" href="/edit-cart-items?cartID=@item.CartID">
+                                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                                    </a>
+                                    <p></p>
+                                    <a class="btn btn-danger btn-sm" href="/remove-from-cart?id=@item.CartID"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </table>
+
+                <div class="total-price">
+                    <table>
+                        <tr>
+                            <td>Total</td>
+                            @{
+                                decimal orderTotal = Model.CartItems.Sum(item => item.ProductPrice * item.ProductQuantity);
+                            }
+                            <td>R @orderTotal</td> <!-- Total including subtotal -->
+                        </tr>
+                    </table>
+                </div>
+
+                <p></p>
+                <div class="button-container">
+                    <button type="submit" class="btn process-order-btn btn-sm" asp-page-handler="ConfirmOrder">
+                        Confirm Order
+                    </button>
+                    <a class="btn clear-order-btn btn-sm" href="Products">
+                        Back
+                    </a>
+                </div>
+            </form>
+        }
+    </div>
+
+    <section id="footer">
+        <hr>
+        <div class="icons">
+            <p>
+                <a href="Tel:+27831234567" class="fa fa-phone"></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+            </p>
+            <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+        </div>
+        <hr>
+    </section>
+
+</body>
+</html>

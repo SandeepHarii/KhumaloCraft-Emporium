@@ -1,0 +1,18 @@
+﻿@page
+@model UploadModel
+@{
+    ViewData["Title"] = "Upload Photo";
+}
+
+<h2>Upload Photo</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="UploadFile"></label>
+        <input type="file" asp-for="UploadFile" />
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+<p></p>
+<a href ="Gallery">Gallery</a>

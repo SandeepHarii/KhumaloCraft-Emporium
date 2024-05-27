@@ -1,0 +1,17 @@
+﻿@page
+@model GalleryModel
+@{
+    ViewData["Title"] = "Photo Gallery";
+}
+
+<h2>Photo Gallery</h2>
+
+<div>
+    @foreach (var photo in Model.Photos)
+    {
+        <div>
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(photo.Image)" alt="@photo.FileName" />
+            <p>@photo.FileName</p>
+        </div>
+    }
+</div>

@@ -1,0 +1,85 @@
+﻿@page
+@model MyWorkModel
+@{
+
+    ViewData["Title"] = "My Work";
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+   
+        <h1>My Work</h1>
+        <hr size="5px">
+        <br />
+        <p>
+            We at KhumaloCraft are extremely proud to have assembled a wide range of wonderful handcrafted goods from global craftsmen. Every artwork conveys a tale, showcases a distinct cultural background, and exhibits the artist's talent and enthusiasm. View our collection below to see the elegance and skill with which our artists have created their pieces.
+        </p>
+        <br />
+
+        <table>
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Product Description</th>
+                    <th>Product Category</th>
+                    <th>Product Availability</th>
+                    <th>Product Price</th>
+                    <th>Action</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+            @foreach (var product in Model.ListProducts)
+            {
+                <tr>
+                    <td>@product.ProductID</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.ProductDescription</td>
+                    <td>@product.ProductCategory</td>
+                    <td>@product.ProductAvailability</td>
+                    <td>@product.ProductPrice</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="/Order?productId=@product.ProductID&productName=@product.ProductName&productDescription=@product.ProductDescription&productCategory=@product.ProductCategory&productAvailability=@product.ProductAvailability&productPrice=@product.ProductPrice">Order</a>
+
+                    </td>
+                </tr>
+            }
+
+
+            </tbody>
+
+        </table>
+
+        <section id="footer">
+            <hr>
+            <div class="icons">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <p>
+                    <a href="#" class="fa fa-phone"></a>&nbsp;&nbsp;
+                    <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                    <a href="#" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                    <a href="#" class="fa fa-envelope"></a>&nbsp;&nbsp;
+                </p>
+                <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+            </div>
+
+            <hr>
+        </section>
+
+</body>
+
+</html>
+

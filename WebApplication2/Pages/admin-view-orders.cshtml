@@ -1,0 +1,91 @@
+﻿@page
+@model KhumaloCraft2.Pages.AdminViewOrdersModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/admin-site.css" />
+</head>
+<body>
+    <h1>Order Details</h1>
+    <hr size="5px">
+    <br />
+
+    <table>
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Product Quantity</th>
+                <th>Product Price</th>
+                <th>Product Sub-Total</th>
+                <th>Order Total</th>
+                <th>User Name</th>
+                <th>Order Status</th>
+                <th>Order Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int currentOrderID = -1;
+                bool firstProductInOrder = true;
+            }
+            @foreach (var orderDetails in Model.CartItems)
+            {
+                if (orderDetails.OrderID != currentOrderID)
+                {
+                    currentOrderID = orderDetails.OrderID;
+                    firstProductInOrder = true;
+                }
+
+                <tr>
+                    @if (firstProductInOrder)
+                    {
+                        firstProductInOrder = false;
+                        <td rowspan="@Model.CartItems.Count(o => o.OrderID == orderDetails.OrderID)" style=" background-color: #ec582a">
+                            @orderDetails.OrderID
+                            <br />
+                            <a class="btn btn-danger btn-sm" href="admin-delete-order?orderId=@orderDetails.OrderID"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                        </td>
+                    }
+                    <td>@orderDetails.ProductID</td>
+                    <td>@orderDetails.ProductName</td>
+                    <td>@orderDetails.ProductQuantity</td>
+                    <td>R @orderDetails.ProductPrice</td>
+                    <td>R @orderDetails.ProductSubTotal</td>
+                    <td>R @orderDetails.orderTotal</td>
+                    <td>@orderDetails.UserName</td>
+                    <td>@orderDetails.OrderStatus</td>
+                    <td>@orderDetails.OrderDate.ToString("dd MMMM yyyy HH:mm:ss")</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="admin-edit-orders?orderId=@orderDetails.OrderID"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                        <p></p>
+                        <a class="btn btn-danger btn-sm" href="admin-delete-item?orderID=@orderDetails.OrderID&productID=@orderDetails.ProductID"><i class="fa fa-times" aria-hidden="true"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <section id="footer">
+        <hr>
+        <div class="icons">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <p>
+                <a href="#" class="fa fa-phone"></a>&nbsp;&nbsp;
+                <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                <a href="#" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                <a href="#" class="fa fa-envelope"></a>&nbsp;&nbsp;
+            </p>
+            <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+        </div>
+        <hr>
+    </section>
+</body>
+</html>

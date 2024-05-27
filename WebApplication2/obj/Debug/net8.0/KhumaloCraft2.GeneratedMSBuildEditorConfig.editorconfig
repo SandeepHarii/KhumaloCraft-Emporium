@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KhumaloCraft2
+build_property.RootNamespace = KhumaloCraft2
+build_property.ProjectDir = C:\Users\Sande\Programming\C#\KhumaloCraft2 - Current\WebApplication2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Sande\Programming\C#\KhumaloCraft2 - Current\WebApplication2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/about-us.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWJvdXQtdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/add-new-product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRkLW5ldy1wcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/add-view-order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRkLXZpZXctb3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/admin-delete-item.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4tZGVsZXRlLWl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/admin-delete-order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4tZGVsZXRlLW9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/admin-delete-products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4tZGVsZXRlLXByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/admin-edit-orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4tZWRpdC1vcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/admin-edit-products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4tZWRpdC1wcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/admin-my-work.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4tbXktd29yay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/admin-view-orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW4tdmlldy1vcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Client.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/contact-us.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29udGFjdC11cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/delete-cart-item.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVsZXRlLWNhcnQtaXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/edit-cart-items.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZWRpdC1jYXJ0LWl0ZW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/my-work.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXktd29yay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/remove-from-cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVtb3ZlLWZyb20tY2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/view-previous-orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdmlldy1wcmV2aW91cy1vcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sande/Programming/C\#/KhumaloCraft2 - Current/WebApplication2/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l86wodzse6

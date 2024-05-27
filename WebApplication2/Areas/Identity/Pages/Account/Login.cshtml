@@ -1,0 +1,90 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+	<h1 style="text-align: left;">Login</h1>
+	<hr size="5px">
+	<br />
+
+    <div class="login-container">
+
+        <section>
+            <form id="account" method="post">
+
+                <div class="mb-3">
+                    <h1 style="text-align: left;">Login</h1>
+                    <hr size="5px" />
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email*</label>
+                        <input asp-for="Input.Email" class="form-control" />
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password*</label>
+                        <input asp-for="Input.Password" class="form-control" />
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="checkbox mb-3">
+                        <label asp-for="Input.RememberMe" class="form-label">
+                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col d-grid">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                        <div class="col d-grid">
+                            <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+                        </div>
+                    </div>
+
+                    <hr size="5px">
+
+                    <div>
+                        <a class="btn btn-link" id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                        <p>New Customer?<a class="btn btn-link" asp-page="./Register">Register</a></p>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+
+    </div>
+
+    <section id="footer">
+        <hr>
+        <div class="icons">
+            <p>
+                <a href="Tel:+27831234567" class="fa fa-phone"></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+            </p>
+            <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+        </div>
+        <hr>
+    </section>
+
+</body>
+</html>

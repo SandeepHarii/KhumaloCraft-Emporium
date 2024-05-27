@@ -1,0 +1,39 @@
+﻿@page
+@using System.Data.SqlClient;
+
+@{
+    try
+    {
+        string orderID = Request.Query["orderID"];
+        string connectionString = "Server=tcp:st10050442-part2.database.windows.net,1433;Initial Catalog=KhumaloCraft_DB;Persist Security Info=False;User ID=Sandeep;Password=H@numan108;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+
+            string sql = "DELETE FROM OrderDetails WHERE OrderID = @orderID";
+
+            Console.WriteLine();
+            Console.WriteLine("***************************************************************");
+            Console.WriteLine();
+            Console.WriteLine("Executing DELETE FROM ORDER DETAILS BY ORDER ID: ");
+            Console.WriteLine(sql);
+            Console.WriteLine($"Values: OrderID = {orderID}");
+            Console.WriteLine();
+            Console.WriteLine("***************************************************************");
+            Console.WriteLine();
+
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@orderID", orderID);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        // Handle exception
+    }
+
+    Response.Redirect("admin-view-orders");
+}

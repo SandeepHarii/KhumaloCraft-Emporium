@@ -1,0 +1,108 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <h1 style="text-align: left;">Register</h1>
+    <hr size="5px">
+    <br />
+
+    <div class="login-container">
+        <section>
+
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+
+                <h1 style="text-align: left;">Register</h1>
+                <hr size="5px">
+
+                <div class="row mb-3">
+                    <div class="col-sm-6">
+                        <label class="col-form-label">First Name*</label>
+                        <input class="form-control" asp-for="Input.FirstName">
+                        <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="col-form-label">Last Name*</label>
+                        <input class="form-control" asp-for="Input.LastName">
+                        <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-6">
+                        <label class="col-form-label">Email*</label>
+                        <input class="form-control" asp-for="Input.Email">
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="col-form-label">Phone*</label>
+                        <input class="form-control" asp-for="Input.PhoneNumber">
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-12">
+                        <label class="col-form-label">Address*</label>
+                        <input class="form-control" asp-for="Input.Address" style="width: 100%;">
+                        <span asp-validation-for="Input.Address" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-6">
+                        <label class="col-form-label">Password*</label>
+                        <input class="form-control" asp-for="Input.Password">
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="col-form-label">Confirm Password*</label>
+                        <input class="form-control" asp-for="Input.ConfirmPassword">
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-sm-12 d-grid">
+                        <button type="submit" class="btn btn-primary" href="/Products">Register</button>
+                    </div>
+                </div>
+
+                <hr size="5px">
+
+                <p>Already have an account?<a class="btn btn-link" asp-page="./Login">Login</a></p>
+
+            </form>
+        </section>
+    </div>
+
+    <section id="footer">
+        <hr>
+        <div class="icons">
+            <p>
+                <a href="Tel:+27831234567" class="fa fa-phone"></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+            </p>
+            <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+        </div>
+        <hr>
+    </section>
+
+</body>
+</html>

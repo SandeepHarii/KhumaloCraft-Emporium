@@ -1,0 +1,63 @@
+﻿@page
+@model KhumaloCraft2.Pages.EditCartItemsModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Cart Items</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <h1>Edit Cart Item</h1>
+    <hr>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-warning" role="alert">
+            <strong>@Model.ErrorMessage</strong>
+            <button type='button' class="btn-close" data-bs-dismiss='alert' aria-label="close"></button>
+        </div>
+    }
+
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">Product Quantity</label>
+            <input type="text" class="form-control" name="productQuantity" value="@Model.product.ProductQuantity" />
+        </div>
+
+        @if (!string.IsNullOrEmpty(Model.successMessage))
+        {
+            <div class="alert alert-success" role="alert">
+                <strong>@Model.successMessage</strong>
+                <button type='button' class="btn-close" data-bs-dismiss='alert' aria-label="close"></button>
+            </div>
+        }
+
+        <div class="btn-container">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <a class="btn btn-outline-primary" href="/Cart" role="button">Cancel</a>
+        </div>
+    </form>
+
+    <section id="footer">
+        <hr>
+        <div class="icons">
+            <p>
+                <a href="Tel:+27831234567" class="fa fa-phone"></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+            </p>
+            <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+        </div>
+        <hr>
+    </section>
+
+</body>
+</html>

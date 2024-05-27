@@ -1,0 +1,33 @@
+﻿@page
+@using System.Data;
+@using System.Data.SqlClient;
+@{
+    try
+    {
+        string cartID = Request.Query["id"];
+        string connectionString = "Server=tcp:st10050442-part2.database.windows.net,1433;Initial Catalog=KhumaloCraft_DB;Persist Security Info=False;User ID=Sandeep;Password=H@numan108;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+
+            string sql = "DELETE FROM Cart WHERE cartID = @cartID";
+
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.Add("@cartID", SqlDbType.NVarChar).Value = cartID;
+                command.ExecuteNonQuery();
+            }
+        }
+        // Redirect to the cart page after successful deletion
+        Response.Redirect("/Cart");
+    }
+    catch (Exception ex)
+    {
+        // Handle exception: Log the error or display a user-friendly message
+        // For example:
+        //Response.Write($"An error occurred: {ex.Message}");
+        // Or redirect to an error page
+        Response.Redirect("Error");
+    }
+}

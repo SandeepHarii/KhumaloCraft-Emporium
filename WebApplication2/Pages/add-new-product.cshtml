@@ -1,0 +1,99 @@
+﻿@page
+@model KhumaloCraft2.Pages.AddNewProductModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body>
+
+    
+        <h1>Add New Product</h1>
+        <hr />
+
+        @if (Model.ErrorMessage.Length > 0)
+        {
+            <div class="alert alert-warning" role="alert">
+                <strong>@Model.ErrorMessage</strong>
+            </div>
+        }
+
+        <form method="post">
+            <div class="mb-3">
+                <label class="form-label">Product Name</label>
+                <input type="text" class="form-control" Name="productName" value="@Model.product.ProductName" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Product Description</label>
+                <input type="text" class="form-control" Name="productDescription" value="@Model.product.ProductDescription" />
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Product Price</label>
+                    <input type="text" class="form-control" Name="productPrice" value="@Model.product.ProductPrice" />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Product Category</label>
+                    <input type="text" class="form-control" Name="productCategory" value="@Model.product.ProductCategory" />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Product Availability</label>
+                <input type="number" class="form-control" Name="productAvailability" value="@Model.product.ProductAvailability" />
+            </div>
+
+          
+
+            <div class="btn-container">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="btn btn-outline-primary" href="/Admin" role="button">Cancel</a>
+            </div>
+            <p></p>
+        </form>
+
+    @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+    {
+        <div class="alert alert-success" role="alert">
+            <strong>@Model.SuccessMessage</strong>
+            <button type='button' class="btn-close" data-bs-dismiss='alert' aria-label="close"></button>
+        </div>
+        <a class="btn btn-outline-primary" href="/Admin" role="button">Back</a>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-warning" role="alert">
+            <strong>@Model.ErrorMessage</strong>
+            <button type='button' class="btn-close" data-bs-dismiss='alert' aria-label="close"></button>
+        </div>
+    }
+
+        <section id="footer">
+            <hr>
+            <div class="icons">
+                <p>
+                    <a href="Tel:+27831234567" class="fa fa-phone"></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                    <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                    <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+                </p>
+                <p>© 2024 KhumaloCraft | All Rights Reserved | Developed By: Sandeep Hari</p>
+            </div>
+            <hr>
+        </section>
+
+    </div>
+
+</body>
+</html>
